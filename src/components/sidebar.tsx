@@ -44,8 +44,7 @@ function SidebarShell({ children, footer }: { children: React.ReactNode; footer?
   const { theme } = useTheme();
   const logoSrc =
     theme === "dark"
-      ? "https://evolution-api.com/files/evo/evolution-logo-white.svg"
-      : "https://evolution-api.com/files/evo/evolution-logo.svg";
+      ? "/assets/images/evolution-logo-dark.svg" : "/assets/images/evolution-logo-light.svg";
 
   return (
     <aside className="hidden md:flex bg-sidebar text-sidebar-foreground flex-col w-56 border-r border-sidebar-border">
